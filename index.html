@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./logo.png" alt="">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#"><input type="color" id="color"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section class="section-1">
+        <div class="display" id="display">
+            <textarea name="" id="textarea" cols="30" rows="10" placeholder="Just Starting Typing And Let Me Write For You......"></textarea>
+        </div>
+        <div class="action">
+            <p><span id="wordCount">120</span> Words</p>
+            <span><ion-icon name="volume-high" id="voice"></ion-icon></span>
+            <button id="download" onclick="generatePDF()">Download PDF</button>
+        </div>
+        <div class="keyboard" id="keyboard">
+            <button class="btn">A</button>
+            <button class="btn">B</button>
+            <button class="btn">C</button>
+            <button class="btn">D</button>
+            <button class="btn">E</button>
+            <button class="btn">F</button>
+            <button class="btn">G</button>
+            <button class="btn">H</button>
+            <button class="btn">I</button>
+            <button class="btn">J</button>
+            <button class="btn">K</button>
+            <button class="btn">L</button>
+            <button class="btn">M</button>
+            <button class="btn">N</button>
+            <button class="btn">O</button>
+            <button class="btn">P</button>
+            <button class="btn">Q</button>
+            <button class="btn">R</button>
+            <button class="btn">S</button>
+            <button class="btn">T</button>
+            <button class="btn">U</button>
+            <button class="btn">V</button>
+            <button class="btn">W</button>
+            <button class="btn">X</button>
+            <button class="btn">Y</button>
+            <button class="btn" id="space"> </button>
+            <button class="btn">Z</button>
+    </section>
+    <script src="./script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <!-- <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    </body>
+
+</html>
